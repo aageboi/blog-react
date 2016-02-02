@@ -1,0 +1,22 @@
+{
+  "name": "blog-react",
+  "description": "blog using react and webpack",
+  "main": "",
+  "authors": [
+    "aageboi"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation-sites": "^6.1.2",
+    "motion-ui": "^1.1.1"
+  }
+}
