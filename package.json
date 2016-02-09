@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "blog using react and webpack",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --hot --inline --display-error-details --content-base public --port 8000"
   },
   "author": "aageboi",
   "license": "ISC",
@@ -12,9 +13,13 @@
     "babel-loader": "^6.2.1",
     "babel-preset-airbnb": "^1.0.1",
     "css-loader": "^0.23.1",
+    "expose-loader": "^0.7.1",
     "extract-text-webpack-plugin": "^1.0.1",
     "react": "^0.14.6",
     "react-dom": "^0.14.6",
+    "react-router": "^2.0.0-rc5",
+    "sass-loader": "^3.1.2",
+    "scss-loader": "0.0.1",
     "style-loader": "^0.13.0",
     "webpack": "^1.12.11"
   }
