@@ -55,6 +55,10 @@ module.exports = {
       alias: {
         jquery: path.resolve('./bower_components/jquery/dist/jquery.js')
       }
+  },
+
+  node: {
+    fs: 'empty'
   }
 
 }

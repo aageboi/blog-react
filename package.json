@@ -4,7 +4,7 @@
   "description": "blog using react and webpack",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --hot --inline --display-error-details --content-base public --port 8000"
+    "start": "webpack-dev-server -d --hot --inline --display-error-details --content-base public --port 8000"
   },
   "author": "aageboi",
   "license": "ISC",
